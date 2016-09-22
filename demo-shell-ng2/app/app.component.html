@@ -22,7 +22,7 @@
                 <a class="mdl-navigation__link" data-automation-id="about" href="" routerLink="/about">About</a>
             </nav>
 
-            <div *ngIf="isLoggedIn()">
+            <div class="user-profile" *ngIf="isLoggedIn()">
                 <ng2-alfresco-userinfo></ng2-alfresco-userinfo>
             </div>
 
